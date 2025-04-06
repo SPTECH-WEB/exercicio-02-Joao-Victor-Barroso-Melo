@@ -1,7 +1,7 @@
 package com.example.exercicio2.exercicio2.controller;
 
-import com.example.exercicio2.exercicio2.services.FreteAdapterInterface;
-import com.example.exercicio2.exercicio2.services.FreteService;
+import com.example.exercicio2.exercicio2.services.adapter.FreteAdapterInterface;
+import com.example.exercicio2.exercicio2.services.strategy.FreteService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
